@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #E85A00, #FF9A1F, #E85A00);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+
+}
+
+.navLinks{
+    display: flex;
+    align-items: center;    
+    gap: 50px;
+    margin-right: 100px;
+    color: #FFFFFF;
+    font-size: 18px;
+
+}
+
+.links{
+        cursor: pointer;
+}
+
+#navImg{
+    height: 90%;
+    width: 90%;
+    margin-top: 25px;
+
+}
+
+.buttonClass{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    gap:4px;
+    align-items:center;
+
+}
+
+.buttonClass img{
+    width: 20%;
+    height: 20%;
+}
+#navLinksButton{
+    scale: 1.4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-style: bold;
+}
+
+.gapahh{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.gapahhButtons{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    
+}
+#gapahhTransparent{
+    background-color: rgba(255, 255, 255, 0.347);
+    color: white;
+    
+}
+
+.bigbox{
+    padding: 0 100px;
+    width: 100%;
+    height: 70%;
+    padding-top: 100px;
+    display:flex;
+    margin-bottom: 20px;
+}
+.box1{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+}
+#mainText{
+    font-size: 60px;
+    color: white;
+    line-height: 60px;
+    transform: scaleY(1.2);
+    margin-bottom: 40px;
+}
+#mainPara{
+    color: white ;
+    font-size: 23px;
+}
+
+.box2{
+    width: 65%;
+    height: 100%;
+    /* background-color: pink;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+#hype{
+    font-size: 20em;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    transform: scaleY(1.5);
+    color: white;
+    font-weight: 900;
+}
+
+.box3{
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 50px;
+    
+    
+    flex-direction: column; 
+    
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+.colorOptions{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.colorPallete{
+    border-radius: 50%;
+    /* height: 5%; */
+    padding: 30px;
+    background-color: white;
+    
+}
+.aqua{
+    background-color: #42CFC7;
+}
+.orange{
+    background-color: #FF7900;
+    border: 2px solid white;
+    box-sizing: content-box;
+}
+.red{
+    background-color: #F20A3D
+}
+
+.sizeOptions{
+    height: fit-content;
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.sizeCircle{
+
+    border: 1px solid white;
+    /* padding: 20px; */
+    padding: 15px 18px;
+    
+    border-radius: 50%;
+    /* padding-top:5px; */
+}
+
+#heroImg{
+    position: absolute;
+    width: 32%;
+    rotate: calc(-5deg);
+    bottom: 150px;
+}
+footer{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.icons{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-left: 100px;
+}
+.social{
+    width: 5%;
+    height: 1.5%;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+.byeByeText{
+    color: white;
+    font-family: sans-serif;
+    /* letter-spacing: 2px; */
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+#lastButton{
+    margin-right: 200px;
+    display: flex;
+    height:60px;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-weight: 900;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
