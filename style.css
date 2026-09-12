@@ -125,7 +125,10 @@ nav{
     font-size: 20em;
     /* font-family: Arial, Helvetica, sans-serif; */
     transform: scaleY(1.5);
+    /* height: 100%; */
+    /* height: fit-content; */
     color: white;
+    pointer-events: none;
     font-weight: 900;
 }
 
